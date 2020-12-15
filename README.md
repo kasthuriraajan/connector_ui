@@ -6,7 +6,10 @@ To use this in connectors:
 
 Import this package in required ballerina connector file.
 
-##Sample
+## Sample
+
+```ballerina
+
 import kasthuriraajan/connector_ui;
  
 @connector_ui:ConnectorMetadata { displayName: "Salesforce" }
